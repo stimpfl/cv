@@ -10,14 +10,14 @@
     "carbon-components": "^10.28.0",
     "carbon-components-react": "^7.27.0",
     "carbon-icons": "^7.0.7",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
     "styled-components": "^5.2.1",
-    "web-vitals": "^1.0.1",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "web-vitals": "^1.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
